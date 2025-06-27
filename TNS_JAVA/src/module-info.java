@@ -1,0 +1,2 @@
+module TNS_JAVA {
+}
