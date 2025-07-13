@@ -11,19 +11,20 @@ public class ConstructorDemo {
 		String name, city;
 		int id;
 	
+	
 		
-		sc.nextInt();
 		System.out.println("Enter Customer Name");
-		id=sc.nextInt();
+		id = sc.nextInt();
 		
 		sc.nextLine();
+		
 		System.out.println("Enter Customer Name");
-		name=sc.nextLine();
+		name = sc.nextLine();
 		
 		System.out.println("Enter Customer City");
-		city=sc.nextLine();
+		city = sc.nextLine();
 		
-		System.out.println(" ");
+		System.out.println();
 		
 		/*Customer c2 = new Customer(name, id, city);
 		System.out.println(c2); */
@@ -31,17 +32,13 @@ public class ConstructorDemo {
 		
 		
 		Customer c1 = new Customer();
+		
 		c1.setCustomerCity(city);
 		c1.setCustomerId(id);
 		c1.setCustomerCity(city);
+		
 		System.out.println(c1);
 		
-		
-		
-		
-		
-		
-
-	}
+		}
 
 }
