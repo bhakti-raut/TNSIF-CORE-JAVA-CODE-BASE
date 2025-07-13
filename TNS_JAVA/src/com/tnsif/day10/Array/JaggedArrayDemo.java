@@ -1,4 +1,4 @@
-package com.tnsif.day8.Array;
+package com.tnsif.day10.Array;
 
 class JaggedArray{
     static void printArray(int c[] []) {
